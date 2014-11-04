@@ -7,6 +7,7 @@ summary: Ruby assistants
 bugreports: https://github.com/devassistant/dap-ruby/issues
 dependencies:
   - common_args
+  - git
   - vim
 description: |
     Kickstarts new Ruby projects. Currently only supports Ruby on Rails.
