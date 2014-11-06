@@ -1,5 +1,5 @@
 package_name: ruby
-version: 0.10.0dev
+version: 0.10.0
 license: GPLv2+
 authors: [Bohuslav Kabrda <bkabrda@redhat.com>]
 homepage: https://github.com/devassistant/dap-ruby
@@ -8,6 +8,7 @@ bugreports: https://github.com/devassistant/dap-ruby/issues
 dependencies:
   - common_args
   - git
+  - github
   - vim
 description: |
     Kickstarts new Ruby projects. Currently only supports Ruby on Rails.
