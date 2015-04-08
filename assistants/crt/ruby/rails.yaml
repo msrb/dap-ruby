@@ -42,6 +42,7 @@ run:
   - github:
     - create_and_push
     - reponame: $basename
+      login: $github
 - log_i: 'Ruby on Rails project $basename in $dirname has been created.'
 - log_i: 'To run the application use: rails s'
 - log_i: 'For more information about Ruby on Rails project visit http://rubyonrails.org'
